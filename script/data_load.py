@@ -17,43 +17,13 @@ df.to_pickle(os.path.join('..', 'data_frame.pickle'))
 
 print(df)
 
-plt.figure(figsize = (20, 12))
-plt.subplot(231)
-plt.barh(QB_df['College'], QB_df['count(Position)'], color='green')
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Quarterbacks by College', fontsize=27)
+# graph
+#plt.plot([8,6,3,12,7], marker = 'o', 
+#        color = 'magenta', linestyle = 'dashed')
+#plt.show()
 
-plt.subplot(232)
-plt.barh(RB_df['College'], RB_df['count(Position)'], color='orange')
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Running Backs by College', fontsize=27)
-
-plt.subplot(233)
-plt.barh(T_df['College'], T_df['count(Position)'])
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Tackles by College', fontsize=27)
-
-plt.subplot(234)
-plt.barh(DE_df['College'], DE_df['count(Position)'], color='Purple')
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Defensive Ends by College', fontsize=27)
-
-plt.subplot(235)
-plt.barh(CB_df['College'], CB_df['count(Position)'], color='Red')
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Cornerbacks by College', fontsize=27)
-
-plt.subplot(236)
-plt.barh(LB_df['College'], LB_df['count(Position)'], color='Grey')
-plt.yticks(fontsize=20)
-plt.xticks(fontsize=20)
-plt.title('Most Linebackers by College', fontsize=27)
-
-
-plt.tight_layout()
-plt.show()
+#exercise
+XLSX_PATH = os.path.join('..', 'data','LURES.xlsx')
+print(XLSX_PATH)
+lures = pd.read_excel(XLSX_PATH, sheet_name = 'LURES')
+lures
