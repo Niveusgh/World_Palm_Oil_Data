@@ -17,13 +17,22 @@ df.to_pickle(os.path.join('..', 'data_frame.pickle'))
 
 print(df)
 
+from os.path import dirname, join
+current_dir = dirname(__file__)
+file_path = join(current_dir, "./LURES.xlsx")
+
+
+#with open(file_path, 'r') as f:
+
+#print(os.getcwd())
+
 # graph
 #plt.plot([8,6,3,12,7], marker = 'o', 
 #        color = 'magenta', linestyle = 'dashed')
 #plt.show()
 
 #exercise
-XLSX_PATH = os.path.join('..', 'data','LURES.xlsx')
-print(XLSX_PATH)
-lures = pd.read_excel(XLSX_PATH, sheet_name = 'LURES')
-lures
+#XLSX_PATH = os.path.join('..', 'data',)
+#print(XLSX_PATH)
+lures = pd.read_excel('LURES.xlsx', sheet_name = 'LURES')
+#lures
