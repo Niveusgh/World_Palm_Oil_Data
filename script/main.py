@@ -4,6 +4,8 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 from IPython.display import Image
+import copy
+
 
 # read files from data folder 
 CSV_PATH_PALM = os.path.join('..', 'data','palm_oil_production.csv')
@@ -64,21 +66,37 @@ entity_counts = df_palm['Entity'].value_counts()
 # check entities with large data records
 s = entity_counts[entity_counts > entity_counts.mean()]
 
+print("The following list of countries " 
+    "are the top 10 producers of palm oil in the world:\n" )
+print (Top_Production_Country)
+
+# Plotting
+# creat a dictionary of dataframes
+dict_of_df = {}
+for country in Top_Production_Country:
+
+    key_name = 'df_plot_'+str(country)    
+
+    dict_of_df[key_name] = copy.deepcopy(
+        df_palm_country.loc[df_palm_country['Entity']==country])
+ 
+# iterate through the dataframe dictionary to plot
+ls_of_style = ['b--', '--c', ':m', ':y', '--r',
+                '--m', ':b', ':r', '--g', ':c']
+fig, axes = plt.subplots(figsize=(18,9))
+axes.set_title('Top Production Country')
+axes.set_xlabel('Year')
+axes.set_ylabel('Poduction in Tonnes')
+i = 0
+for df in dict_of_df:
+    axes.plot((dict_of_df[df]['Year']),dict_of_df[df]['Tonnes'] , ls_of_style[i], 
+            label = Top_Production_Country[i])
+    i += 1
+axes.legend()
 
 
-# List of the contenint 
-# CONTENINT = ['']
 
-# split into smaller data
-plt.figure(figsize = (12, 6))
-plt.scatter(QTY, SALES)
-plt.xlabel('Quantity')
-plt.ylabel('Sales')
-plt.title('Scatterplot of Sales vs. Quantity')
-plt.show()
 
-# plt.plot(lures['SALES'])
-#plt.show()
 
 
 # df.to_pickle(os.path.join('..', 'data_frame.pickle'))
