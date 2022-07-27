@@ -14,6 +14,9 @@ This project aim to show the data of palm oil production around the world from 1
  3. The trend of gloal palm oil production through the world
  
 
+## Source
+all data are from ourworldindata.org .
+
 
 ### Running the Program
 1. Python 3 is required. This project is written using version 3.10.1.
