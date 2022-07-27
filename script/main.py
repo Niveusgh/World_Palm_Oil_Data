@@ -22,7 +22,7 @@ df_land = pd.read_csv(CSV_PATH_LAND)
 
 #Intro image
 print("Palm Crop")
-Image(url= "img/intro.jpg", width=500, height=400)
+Image(url= "../img/palm_life.png", width=500, height=400)
 
 # simplify column names of dataframe 
 df_forest.rename(columns={"Annual net change in forest area": 
@@ -103,19 +103,3 @@ axes.legend()
 
 #print(df)
 
-# from os.path import dirname, join
-# current_dir = dirname(__file__)
-# file_path = join(current_dir, "./LURES.xlsx")
-
-
-#with open(file_path, 'r') as f:
-
-#print(os.getcwd())
-
-# graph
-#plt.plot([8,6,3,12,7], marker = 'o', 
-#        color = 'magenta', linestyle = 'dashed')
-#plt.show()
-
-# Aggregate data by continent
-#grouped_continent = df_palm.groupby('Entity')['']
