@@ -37,7 +37,7 @@ All data are from ourworldindata.org .
 The following requirements have been met with this project:
 1. Read in data from a local csv, excel or other file type.
 2. Use built-in pandas or numpy functions
-3. Use at least 5 different built-in Python functions to find out something about your data. 
+3. Write custom functions to operate on your data.
 4. Make 2 basic plots with matplotlib, or any other kind of visualization library that you think looks interesting.
 5. Write markdown cells in Jupyter explaining your reasons.
 
