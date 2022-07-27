@@ -4,22 +4,16 @@
 
 ## Introduction
 
-Palm oil has the lowest production cost among the major oils. Thus, palm has become the most used oil crop around the world. about 40% of all vegtable oils. The demand and production of palm oil has been increasing each year, it is projected to be 240Mt in 2050.
+Palm oil is extracted from the the African oil palm. It has the lowest production cost among all the major oils. It has become the most used oil crop around the world for about 40% of all vegtable oils. The demand and production of palm oil has been drasticity increasing each year. The production is projected to reach 240Mt in 2050.
 
-hat's because palm oil is cheap. The plant that makes it, the African oil palm, can produce up to 10 times more oil per hectare than soybeans.
-But as my new book on palm oil's history shows, this controversial commodity hasn't always been cheap. It became that way thanks to"
 
-This project aim to show the data of palm oil production around the world from 1998 to 2020:
+This project aim to show the data of palm oil production around the world from 1960 to 2018:
 
- 1. 
- 2. 
- 3. 
+ 1. The top 10 palm oil production country
+ 2. The major palm production country
+ 3. The trend of gloal palm oil production through the world
  
-By using data from several CSV files, the project plots the increasing levels of oil production among different countries.
 
-
-**Spreadsheets** 
-The `data` folder contains the CSVs uploaded from website (https://).
 
 ### Running the Program
 1. Python 3 is required. This project is written using version 3.10.1.
@@ -28,9 +22,10 @@ The `data` folder contains the CSVs uploaded from website (https://).
 4. To make sure you have all the necessary packages, run "pip install -r requirements.txt". The following packages will be required to run the program: 
         pandas, 
         numby, 
-        matplotlib.pyplot 
-5. The program can be run directly by running "main.py".
-
+        matplotlib.pyplot, 
+        scipy,
+        seaborn
+5. The program can be run directly by running "main.py". YOu can also run the Jupyter.ipynb file using Jupyter Notebook.
 
 
 ## Project Requirements
@@ -47,6 +42,5 @@ Category 4:
 
 
 ## Data Analysis Conclusions
-### Age for Maximum Performance by Position
-It appears there is a large correlation between the three skill positions of . 
+Indonedia and Malaysia produce 87% of global palm oil, and it's contribute to the deforestation of the world tropical forest.
 
