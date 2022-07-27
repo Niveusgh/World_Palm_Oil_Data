@@ -7,10 +7,14 @@ import copy
 import scipy as stats
 import seaborn as sns
 
-###function to get file path:
+##function to get data file path:
 def filepath(arg1='..',arg2='data',arg3='filename'):
         path = os.path.join(arg1,arg2,arg3)
         return path
+
+##function to check the total null value:
+def total_null(df):
+        return df.isnull().sum()
 
 # read files using function
 CSV_PATH_PALM = filepath(arg3='palm_oil_production.csv')
@@ -24,9 +28,6 @@ df_palm = pd.read_csv(CSV_PATH_PALM, usecols=COLS_TO_USE)
 df_forest = pd.read_csv(CSV_PATH_FOREST)
 # df_land = pd.read_csv(CSV_PATH_LAND)
 
-#Intro image
-print("Palm Crop")
-Image(url= "../img/palm_life.png", width=500, height=400)
 
 # simplify column names of dataframe 
 df_forest.rename(columns={"Annual net change in forest area": 
@@ -46,9 +47,8 @@ Image(url= "../img/palm_life.png", width=600, height=700)
 
 # data cleaning
 # check for null values
-df_palm.isnull().sum()
-df_forest.isnull().sum()
-# df_land.isnull().sum()
+total_null(df_palm)
+total_null(df_forest)
 
 
 # fill out null values
