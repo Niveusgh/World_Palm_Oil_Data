@@ -4,7 +4,6 @@ import os
 import matplotlib.pyplot as plt
 from IPython.display import Image
 import copy
-import copy
 import scipy as stats
 import seaborn as sns
 
