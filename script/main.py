@@ -7,10 +7,14 @@ import copy
 import scipy as stats
 import seaborn as sns
 
+###function to get file path:
+def filepath(arg1='..',arg2='data',arg3='filename'):
+        path = os.path.join(arg1,arg2,arg3)
+        return path
 
-# read files from data folder 
-CSV_PATH_PALM = os.path.join('..', 'data','palm_oil_production.csv')
-CSV_PATH_FOREST = os.path.join('..', 'data','change_forest.csv')
+# read files using function
+CSV_PATH_PALM = filepath(arg3='palm_oil_production.csv')
+CSV_PATH_FOREST = filepath(arg3='change_forest.csv')
 
 
 COLS_TO_USE = ['Entity', 'Code', 
