@@ -15,7 +15,7 @@ This project aim to show the data of palm oil production around the world from 1
  
 
 ## Source
-all data are from ourworldindata.org .
+All data are from ourworldindata.org .
 
 
 ### Running the Program
