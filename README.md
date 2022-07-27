@@ -28,7 +28,8 @@ all data are from ourworldindata.org .
         matplotlib.pyplot, 
         scipy,
         seaborn
-5. The program can be run directly by running "main.py". YOu can also run the Jupyter.ipynb file using Jupyter Notebook.
+5. The program can be run directly by running "main.py" from the script folder. 
+    You can also run the "Jupyter.ipynb" file from script folder using Jupyter Notebook.
 
 
 ## Project Requirements
