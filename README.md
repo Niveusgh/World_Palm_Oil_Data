@@ -35,14 +35,10 @@ all data are from ourworldindata.org .
 ## Project Requirements
 
 The following requirements have been met with this project:
-Category 1:
-   Read in data from a local csv, excel or other file type.
-Category 2:
-    Use built-in pandas or numpy functions
-Category 3:
-    Write custom functions to operate on your data.
-Category 4:
-    Make 2 basic plots with matplotlib, or any other kind of visualization library that you think looks interesting.
+1. Read in data from a local csv, excel or other file type.
+2. Use built-in pandas or numpy functions
+3. Write custom functions to operate on your data.
+4. Make 2 basic plots with matplotlib, or any other kind of visualization library that you think looks interesting.
 
 
 ## Data Analysis Conclusions
