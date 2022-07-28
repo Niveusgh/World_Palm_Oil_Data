@@ -33,7 +33,8 @@ All data are from ourworldindata.org .
 - numby, 
 - matplotlib.pyplot, 
 - scipy,
-- seaborn
+- seaborn </br>
+
 To run the "Jupyter.ipynb" file, Jupyter Notebook needs to be installed. 
 5. The program can be run directly by running "main.py" from the script folder. You can also run the "Jupyter.ipynb" file from script folder using Jupyter Notebook.
 
