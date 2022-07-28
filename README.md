@@ -23,13 +23,13 @@ All data are from ourworldindata.org .
 2. Clone the repo from github.
 3. Setup a virtual environment and activate it.
 4. To make sure you have all the necessary packages, run "pip install -r requirements.txt". The following packages will be required to run the program: 
-        pandas, 
-        numby, 
-        matplotlib.pyplot, 
-        scipy,
-        seaborn
-5. The program can be run directly by running "main.py" from the script folder. 
-    You can also run the "Jupyter.ipynb" file from script folder using Jupyter Notebook.
+        - pandas, 
+        - numby, 
+        - matplotlib.pyplot, 
+        - scipy,
+        - seaborn
+TO run the "Jupyter.ipynb" file, Jupyter Notebook is needed. 
+5. The program can be run directly by running "main.py" from the script folder. You can also run the "Jupyter.ipynb" file from script folder using Jupyter Notebook.
 
 
 ## Project Requirements
