@@ -29,11 +29,11 @@ All data are from ourworldindata.org .
  "pip install -r requirements.txt". 
  ```
  The following packages will be required to run the program: 
-        - pandas, 
-        - numby, 
-        - matplotlib.pyplot, 
-        - scipy,
-        - seaborn
+- pandas, 
+- numby, 
+- matplotlib.pyplot, 
+- scipy,
+- seaborn
 To run the "Jupyter.ipynb" file, Jupyter Notebook needs to be installed. 
 5. The program can be run directly by running "main.py" from the script folder. You can also run the "Jupyter.ipynb" file from script folder using Jupyter Notebook.
 
