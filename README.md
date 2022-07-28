@@ -43,5 +43,5 @@ The following requirements have been met with this project:
 
 
 ## Data Analysis Conclusions
-Indonedia and Malaysia produce 87% of global palm oil, and it's contribute to the deforestation of the world tropical forest.
+Indonedia and Malaysia are the biggest contributors. Combined, they produce 87% of global palm oil. And the deforestation data showin that the tropical forest in Indonesia has been declining over the past 3 decades.
 
