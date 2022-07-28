@@ -11,7 +11,9 @@ This project aim to show the data of palm oil production around the world from 1
 
  1. The top 10 palm oil production country
  2. The major palm production country
- 3. The trend of gloal palm oil production through the world
+ 3. Global deforastation trend over the years
+ 4. The trend of gloal palm oil production through the world
+ 
  
 
 ## Source
@@ -22,7 +24,11 @@ All data are from ourworldindata.org .
 1. Python 3 is required. This project is written using version 3.10.1.
 2. Clone the repo from github.
 3. Setup a virtual environment and activate it.
-4. To make sure you have all the necessary packages, run "pip install -r requirements.txt". The following packages will be required to run the program: 
+4. To make sure you have all the necessary packages, run
+```
+ "pip install -r requirements.txt". 
+ ```
+ The following packages will be required to run the program: 
         - pandas, 
         - numby, 
         - matplotlib.pyplot, 
