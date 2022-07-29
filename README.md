@@ -52,8 +52,8 @@ The following requirements have been met with this project:
 
 ## Data Analysis Conclusions
 Indonedia and Malaysia are the biggest contributors. Combined, they produce 87% of global palm oil. And the deforestation data showin that the tropical forest in Indonesia has been declining over the past 3 decades. 
--The graph 'Top 10 Palm Production Country' shows the golabl trend of top palm producers. 
--The graph 'All other countries in the world combined' shows the percentage Indonesia and Malaysia compare with the all other countries. 
--The graph 'Forest Change in Acres' shows the changes of forest in 30 years of a few different countries. 
--The graph 'Palm oil production trend world wide' shows the world wide trend of palm oil production.
+- The graph 'Top 10 Palm Production Country' shows the golabl trend of top palm producers. 
+- The graph 'All other countries in the world combined' shows the percentage Indonesia and Malaysia compare with the all other countries. 
+- The graph 'Forest Change in Acres' shows the changes of forest in 30 years of a few different countries. 
+- The graph 'Palm oil production trend world wide' shows the world wide trend of palm oil production.
 
